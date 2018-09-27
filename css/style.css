@@ -1,0 +1,151 @@
+body {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Righteous", Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  transition: color 0.5s;
+}
+
+footer {
+  background-color: #091828;
+  box-shadow: 0 0 20px black;
+  font-size: 1.4em;
+  height: 50px;
+  margin: 0 !important;
+  padding-top: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  transition: font-size .4s;
+}
+
+.navbar-fixed-top {
+  background-color: #091828;
+  height: 80px;
+  width: 100vw;
+  padding: 15px;
+  box-shadow: 0 0 20px #000;
+  text-align: left;
+  transition: font-size .4s;
+}
+
+.btn {
+  transition: background-color 0.5s;
+}
+
+.btn-md {
+  border-radius: 1px 15px;
+  font-size: 1.25em;
+  outline: none !important;
+  padding: 10px 22px;
+  text-shadow: 0 0 8px black;
+  transition: padding .4s;
+}
+
+.navbar-brand {
+  cursor: default;
+  font: 2.5em "Rock Salt", Verdana, sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  transition: color 0.5s, font-size .4s;
+}
+
+.light {
+  padding: 10px 30px;
+}
+
+/* Ensure sections appear below navbar */
+
+.anchor {
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
+
+.main {
+  margin-top: 80px;
+}
+
+.portfolio {
+  background: #222;
+  padding: 10px 30px 30px;
+}
+
+.img-me {
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  border-radius: 60px 0;
+  box-shadow: 10px 10px 20px black;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.description {
+  padding-top: 5%;
+  font-size: 1.1em;
+}
+
+.fa-exchange {
+  margin: 0 2%;
+}
+
+.portfolio img {
+  margin: 15px 0;
+  max-width: 100%;
+}
+
+.port-img-l {
+  border-radius: 60px 0;
+}
+
+.port-img-r {
+  border-radius: 0 60px;
+}
+
+.contact {
+  padding-bottom: 65px;
+}
+
+.emailLink {
+  color: #fff;
+}
+
+.emailLink:visited {
+  color: #bbb;
+}
+
+.emailLink:hover {
+  color: #cceecc;
+}
+
+@media (max-width: 465px) {
+  .navbar-fixed-top {
+    font-size: 3.5vw;
+  }
+  .navbar-brand {
+    font-size: 2em;
+  }
+  nav > a > button,
+  nav > span {
+    margin-top: 10px;
+  }
+  .btn-md {
+    padding: 5px 9px;
+  }
+  footer {
+    font-size: 1em;
+  }
+}

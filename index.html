@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Rock+Salt" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sample Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <a href="#about"><button type="button" class="btn btn-success btn-md" id="btnAbout">About</button></a>
+    <a href="#portfolio"><button type="button" class="btn btn-success btn-md" id="btnPortfolio">Portfolio</button></a>
+    <a href="#contact"><button type="button" class="btn btn-success btn-md" id="btnContact">Contact</button></a>
+    <span class="navbar-brand">Rich</a>
+  </nav>
+  <div class="main">
+    <!--About section-->
+    <span class="anchor" id="about"></span>
+    <div class="container-fluid about">
+      <div class="row light">
+        <div class="col-sm-4">
+          <img class="img-me" src="http://www.motorward.com/wp-content/images/2013/09/rock1.jpeg" alt="Picture of Rich" />
+        </div>
+        <div class="col-sm-8">
+          <p class="description">Front-End Developer and Graphic Designer with years of experience in UI/UX.<br><br></p>
+          <h3>Web Developer <span class="fa fa-exchange"></span> Graphic Designer</h3>
+        </div>
+      </div>
+    </div>
+    <!--Portfolio section-->
+    <span class="anchor" id="portfolio"></span>
+    <div class="container-fluid portfolio">
+      <div class="row">
+        <h1>Portfolio</h1>
+        <h3><i class="fa fa-first-order fa-spin fa-2x"></i></h3>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-xs-6">
+          <img src="https://picsum.photos/450/449?random" class="port-img-l" alt="Project 1" />
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <img src="https://picsum.photos/449/450?random" class="port-img-r" alt="Project 2" />
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <img src="https://picsum.photos/451/450?random" class="port-img-l" alt="Project 3" />
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <img src="https://picsum.photos/450/451?random" class="port-img-r" alt="Project 4" />
+        </div>
+      </div>
+    </div>
+    <!--Contact section-->
+    <span class="anchor" id="contact"></span>
+    <div class="container-fluid contact">
+      <h1>Contact</h1>
+      <span>The best way to contact Rich for code/design inquiries is via <a href="mailto:richvcode@gmail.com?subject=Code/Design%20Inquiry"
+          target="_blank" class="emailLink">E-Mail&nbsp;<i class="fa fa-envelope"></i>.</a></span>
+    </div>
+    <footer class="row">
+      <div class="col-xs-4">
+        <a href="https://github.com/rvrvrv/" target="_blank"><i class="fa fa-github"></i>&nbsp;GitHub</a>
+      </div>
+      <div class="col-xs-4">
+        <a href="https://codepen.io/rvrvrv/" target="_blank"><i class="fa fa-codepen"></i>&nbsp;CodePen</a>
+      </div>
+      <div class="col-xs-4">
+        <a href="https://medium.com/@rvrvrv" target="_blank"><i class="fa fa-medium"></i>&nbsp;Medium</a>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="https://use.fontawesome.com/21a9ccba03.js"></script>
+<script>window.onload = () => document.querySelector('.portfolio i').classList.remove('fa-spin');</script>
+</html>
